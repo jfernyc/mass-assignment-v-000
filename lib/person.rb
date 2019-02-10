@@ -1,6 +1,6 @@
 class Person
   
-#Each key in the attributes hash will become a property of an initialized Person instance.
+#Each key in the attributes hash will become a property of an initialized Person instance. 
 #So, you should make an attr_accessor for each of the above properties
   
 attr_accessor :name, :birthday, :hair_color, :eye_color, :height, 
